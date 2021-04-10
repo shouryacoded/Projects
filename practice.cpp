@@ -2,22 +2,15 @@
 using namespace std;
 int main()
 {
-    int n,l;
-    cin >> n;
-    cout<<n;
-    while(n)
-    {
-        char wrd[100];
-        cin >> wrd;
-        l=0;
-        l = strlen(wrd);
-        if(l > 10)
-        {
-            cout<<wrd[0]<<l-2<<wrd[l-1];
-        }
-        else
-            cout<<wrd;
-        n--;
-    }
+    int o;
+    do{
+        int i, j;
+        cout << "Enter two numbers to add\n";
+        cin >> i >> j;
+        cout<<"The sum of the entered numbers is "<<i + j<<endl;
+        cout<<"Enter Y to continue... \t";
+        o = getchar();
+       }
+    while(o == 'Y' || o == 'y');
     return 0;
 }
