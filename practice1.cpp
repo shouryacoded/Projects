@@ -1,22 +1,17 @@
 #include <bits/stdc++.h>
 using namespace std;
+int Exp(int n1, int n2)
+{
+    int res = pow(n1, n2);
+    return res;
+}
 int main()
 {
-    int n,l;
+    int m, n;
+    cout << "Enter the base : ";
+    cin >> m;
+    cout << "Enter the pwr : ";
     cin >> n;
-    while(n)
-    {
-        char wrd[100];
-        cin >> wrd;
-        l=0;
-        l = strlen(wrd);
-        if(l > 10)
-        {
-            cout<<wrd[0]<<l-2<<wrd[l-1]<<endl;
-        }
-        else
-            cout<<wrd<<endl;
-        n--;
-    }
+    cout << "The ans is : " << Exp(m , n);
     return 0;
 }
