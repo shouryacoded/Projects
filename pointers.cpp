@@ -5,7 +5,7 @@ int main()
     system("cls");
     int a = 5;
     int *ptr;
-    ptr = &a;
+    /*ptr = &a;
     cout << "The value of a is : " << a <<endl;
     cout << "The address of a is : "<< &a << endl;
     cout << "The address of pointer is : "<< &ptr << endl;
@@ -17,6 +17,7 @@ int main()
     cout << "Address of *ptr : " << &*ptr << endl;;
     a = 10;
     cout << "Adress of a is :  " << &a << endl;
-    cout << "Change in the value of ptr : " << *ptr << endl;
+    cout << "Change in the value of ptr : " << *ptr << endl; */
+    cout << "The size fo the integer is : " << sizeof(int);
     return 0;
  }
