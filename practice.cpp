@@ -11,7 +11,7 @@ int main()
     do
     {
     
-    cout << "Enter the numbers to be multiplied : ";
+    cout << "Enter the numbers to be squared : ";
     cin >> m ;
     int ans =  num(m );
     cout << "The answer is : " << ans << endl;
