@@ -2,6 +2,7 @@
 using namespace std;
 int main()
 {
+    system("clear");
     int n;
     cin >> n;
     int ar[n];
@@ -11,7 +12,7 @@ int main()
     }
     for(int j = n - 1; j >= 0; --j)
     {
-        cout << ar[j] ;
+        cout <<  ar[j] << " " ;
     }
     return 0;
 }
