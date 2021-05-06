@@ -14,7 +14,7 @@ struct student
 };
 int main()
 {
-    system("cls");
+    system("clear");
     int RL , ct = 0;
     char op;
     student stud[50];

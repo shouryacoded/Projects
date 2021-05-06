@@ -23,9 +23,9 @@ class stud
 };
 int main()
 {
-    system("cls");
+    system("clear");
     stud student1("Shourya", "cs", 8.99);
     stud student2("Khare", "cs", 7.40);
-    cout << student1.hasHons();
+    cout << student1.hasHons() << endl;
     return 0;
 }
