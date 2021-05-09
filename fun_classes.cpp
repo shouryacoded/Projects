@@ -11,7 +11,7 @@ class prod{
 };
 int main()
 {
-    system("clear");
+    system("clear");  
     prod a1;
     int a = 2, b = 3;
     cout << "The product of the numbers are : " << a1.pro(a,b) << endl;
