@@ -1,12 +1,29 @@
 #include<bits/stdc++.h>
 using namespace std;
+class Animal
+{   public:
+    string AnName;
+    int NoOfFeets;
+    bool isMammal;
+    void putval()
+    {
+
+    }
+};
+class dog : public Animal
+{
+    public:
+    int tail = 1;
+};
 int main()
 {
-    char a = 2.2;
-    double b = 2.2;
-    if(a == b)
-    cout << "Equal" << endl;
-    else
-    cout << "Not equal " << endl;
+    system("clear");
+    dog d;
+    d.AnName = "Finn";
+    d.NoOfFeets = 4;
+    d.isMammal = true;
+    cout << "The name is : " << d.AnName << endl;
+    cout << "The numbers of feets is : " <<d.NoOfFeets << endl;
+    cout << "Is it a mammal : " << d.isMammal <<endl;
     return 0;
 }
