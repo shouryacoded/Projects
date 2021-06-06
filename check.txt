@@ -1,0 +1,1 @@
+This is a file to check that the github terminal of ubuntu works or not.
