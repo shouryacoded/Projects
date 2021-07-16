@@ -9,7 +9,7 @@ int main()
     int ar[n];
     for(int i = 0; i < n; i++)
     {
- f       cin >> ar[i];
+       cin >> ar[i];
     }
     for(int j = n - 1; j >= 0; --j)
     {

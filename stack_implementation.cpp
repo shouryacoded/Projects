@@ -1,5 +1,6 @@
 /* C++ program to implement basic stack
 operations */
+// This stack is implemented using arrays.
 #include <bits/stdc++.h>
 
 using namespace std;
